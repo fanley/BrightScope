@@ -1,0 +1,17 @@
+This readme explains the files in this repo.
+
+stock.py: This is a very basic attempt at finding the best time to
+buy and sell a stock if you are only given one buy and one sell over
+the course of a year. Used in conjunction with table.csv
+
+stock2.py: This is an attempt at the same problem above except this
+use dynamic programming or an attempt at dynamic programming for
+faster run time and lower memory usage than stock.py
+
+table.csv: This is just a comma separated value file with a stock and
+its prices over the course of a year. This is taken off the yahoo API
+except that the values were reverse using the command "tac table.csv >
+table.csv" and then putting the last line back at the top. The last 
+line was just the headers for each catagory. This is done for readability
+since the old format is date descending and it was easier for me to read 
+the file as date ascending.
